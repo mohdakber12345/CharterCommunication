@@ -1,0 +1,96 @@
+html {
+    font-size: 65%;
+}
+body {
+	padding: 0;
+	margin: 0;
+	font-size: 1.5rem;
+	font-weight: 400;
+	letter-spacing: 0.5px;
+	font-family: 'Lato', sans-serif;
+	color: #2B2D2E;
+	background: #E7E7E7;	
+}
+
+.row-block {
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.block, .block-2 {
+    padding: 1rem;
+    border-radius: 3px;
+    margin: 10px 0;
+    display: flex;
+    box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.4);
+    background-color: #fafafa;
+}
+.block {
+    flex-direction: column;
+    height: auto;
+}
+.block-2 {
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.block .form-group,
+.block-2 .form-group {
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+.block .form-group label,
+.block-2 .form-group label {
+    margin-bottom: 5px;
+}
+.block .form-group .form-control,
+.block-2 .form-group .form-control {
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+}
+.block .form-group div.form-control,
+.block-2 .form-group div.form-control {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.btn {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    height: 30px;
+    margin-right: 10px;
+}
+.title {
+    font-size: larger;
+    font-weight: bolder;
+    color: black;
+    margin-right: 10px;
+}
+table {
+    flex: 1 1 100%;
+    border: 1px solid #3c3c3c;
+    border-right: none;
+    border-left: none;
+}
+table tr th,
+table tr td {
+    border-bottom: 1px solid #3c3c3c;
+    text-align: left;
+    padding-left: 10px;
+}
+table tr:last-child td {
+    border-bottom: none;
+}
+.mock-btn {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    font-size: 32px;
+    line-height: normal;
+    font-weight: bolder;
+    z-index: 10;
+}
